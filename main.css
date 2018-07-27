@@ -2,3 +2,16 @@
 p {
     color :burlywood;
 }
+
+.content h1 {
+    background-color:gold;
+    background-blend-mode: color-burn;
+    font-family:monospace;
+  }
+
+  .content p {
+    text-decoration-color: darkgoldenrod;
+    background-color: aqua;
+    color: crimson;
+    text-decoration-line: overline;
+  }
