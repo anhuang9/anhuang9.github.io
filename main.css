@@ -1,5 +1,11 @@
 /* CSS w/ bootstrap integration */
 
+.body {
+    background image: url(./background/EpicTMPic.JPG);
+}
+
+
+
 .header {
     font-size: 150%;
     word-spacing: 8px;
