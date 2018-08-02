@@ -37,8 +37,8 @@ p {
     color: black;
    }
 
-
-.header .align-left {
-       display: inline;  
-       text-align: left;     
+.test {
+       float: left;  
+       padding-left: 1%;   
+       color: white;
    }
