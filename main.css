@@ -1,11 +1,5 @@
 /* CSS w/ bootstrap integration */
 
-.body {
-    background image: url(./background/EpicTMPic.JPG);
-}
-
-
-
 .header {
     font-size: 150%;
     word-spacing: 8px;
@@ -17,12 +11,19 @@
 }
 
 p {
-    color :#3c36fc;
-    background-color:rgb(167, 255, 36);
-    background image: url(./background/EpicTMPic.JPG);
+    color :black;
 }
 
 #testid {
 color: crimson;
 
+}
+
+#nav1
+{  
+    background-image: url(./background/redsky.JPG);
+    background-repeat: no-repeat;
+    background-size: 1450px 1500px;
+    opacity: 0.93; 
+    filter:(opacity=50);     
 }
