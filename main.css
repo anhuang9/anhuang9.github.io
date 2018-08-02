@@ -2,15 +2,16 @@
 
 
 p {
-    color :burlywood;
+    color :blue;
+    background-color: greenyellow;
 }
 
-.content nav {
-    background-color: rgb(243, 167, 67);
+.header {
+    background-color: rgb(92, 203, 247);
     background-blend-mode: color-burn;
     font-family: sans-serif;
     font-weight: bold;
-    color: azure;
+    color: rgba(0, 0, 0, 0.548);
     text-align: right;
     font-size: 34px;
   }
@@ -19,3 +20,25 @@ p {
     color: crimson;
 
   }
+
+  .header {
+    padding-right: 1.2%;
+
+
+  }
+
+   nav > a {
+    text-decoration: none;
+    color: white;
+   }
+
+   nav > a:hover {
+    text-decoration: none;
+    color: black;
+   }
+
+
+.header .align-left {
+       display: inline;  
+       text-align: left;     
+   }
