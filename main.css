@@ -6,7 +6,7 @@ p {
 }
 
 .content h1 {
-    background-color:gold;
+    background-color:rgb(19, 167, 110);
     background-blend-mode: color-burn;
     font-family:monospace;
   }
