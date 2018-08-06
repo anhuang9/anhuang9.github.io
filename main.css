@@ -6,12 +6,23 @@
     color: white;
 }
 
+body {
+    background-image: url(./background/EpicTMPic.JPG);
+    background-size: 1450px 1000px;
+    background-repeat: no-repeat;
+    
+}
+
 .hoverblue:hover {
     color: rgb(0, 0, 0) !important;
 }
 
 p {
-    color :black;
+    color :rgb(126, 41, 41);
+}
+ 
+.navbarcolor {
+    color:white !important;
 }
 
 #testid {
