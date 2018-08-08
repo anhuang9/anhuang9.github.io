@@ -84,13 +84,13 @@ img:last-of-type {
 }
 
 .slide:nth-child(2n) .title {
-  margin-left: 0;
-  margin-right: auto;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .slide:nth-child(2n+1) .title {
-  margin-left: auto;
-  margin-right: 0;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .slide, .slide:before {
@@ -128,7 +128,7 @@ img:last-of-type {
  }
 
  #slide4 h1 {
-  transform: translateZ(.25px) scale(.75);
+  transform: translateZ(.18px) scale(.75);
   transform-origin: 50% 100%;
 }
 
@@ -167,25 +167,37 @@ img:last-of-type {
   background-image: url("./background/redsky.JPG");
 }
 
-
 #nav1
 {  
-    background-image: url(./background/redsky.JPG);
+    background-image: url(./background/EpicTMPic.JPG);
     background-repeat: no-repeat;
     background-size: 1450px 1500px;
     /* background-size: auto; */
-    opacity: 0.93; 
-    filter:(opacity=50);     
+    opacity: 0.85; 
+    filter:(opacity=5);     
 }
 
 .navbarcolor {
-    color:white !important;
+    color:rgb(0, 0, 0) !important;
 }
 
 .hoverblue:hover {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
+.hoverheader{
+    display: inline;
+}
+
+.hoverheader:hover {
+    cursor: pointer;
+    color: white !important;
+    text-decoration: none;
+}
+
+.headercolor {
+    color: white;
+}
 
 
 
