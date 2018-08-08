@@ -32,6 +32,11 @@ h3 {
   color: rgb(255, 255, 255);
 }
 
+h4 {
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+}
+
 p {
   font-size: 140%;
   line-height: 150%;
@@ -127,6 +132,12 @@ img:last-of-type {
   text-align: left;
  }
 
+ #title h4 {
+    transform: translateZ(.25px) scale(.75);
+    transform-origin: 50% 100%;
+    text-align: right;
+ }
+
  #slide4 h1 {
   transform: translateZ(.18px) scale(.75);
   transform-origin: 50% 100%;
@@ -171,9 +182,9 @@ img:last-of-type {
 {  
     background-image: url(./background/EpicTMPic.JPG);
     background-repeat: no-repeat;
-    background-size: 1450px 1500px;
+    background-size: 1450px 3000px;
     /* background-size: auto; */
-    opacity: 0.85; 
+    opacity: 0.99; 
     filter:(opacity=5);     
 }
 
