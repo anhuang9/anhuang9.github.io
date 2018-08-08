@@ -168,6 +168,24 @@ img:last-of-type {
 }
 
 
+#nav1
+{  
+    background-image: url(./background/redsky.JPG);
+    background-repeat: no-repeat;
+    background-size: 1450px 1500px;
+    /* background-size: auto; */
+    opacity: 0.93; 
+    filter:(opacity=50);     
+}
+
+.navbarcolor {
+    color:white !important;
+}
+
+.hoverblue:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
 
 
 
