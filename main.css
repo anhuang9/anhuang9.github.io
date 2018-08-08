@@ -184,15 +184,17 @@ img:last-of-type {
     background-size: 1450px 2900px;
     /* background-size: auto; */
     opacity: 1; 
-    filter:(opacity=5);     
+    filter:(opacity=5); 
 }
 
 .navbarcolor {
-    color:rgba(0, 0, 0, 0.699) !important;
+    color:rgb(29, 32, 32) !important;
+    /* font-size: 19px; */
 }
 
 .hoverblue:hover {
-    color: rgb(216, 4, 4) !important;
+    /* color: #d80404 !important; */
+    color: rgb(255, 0, 0) !important;
 }
 
 .hoverheader{
@@ -219,8 +221,10 @@ div.borderYtoX a:before, div.borderYtoX a:after
     height: 100%;
     width: 0px;
     content: '';
-    background: rgba(97, 89, 89, 0.541);
-    transition: all 0.35s;
+    /* background: #04d8d8; */
+    background: rgb(255, 0, 0);
+    /* background: rgba(0, 217, 255, 0.945); */
+    transition: all 0.25s;
 }
 
 div.borderYtoX a:before
@@ -262,74 +266,3 @@ div.container a
     cursor: pointer; 
     text-align: right !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CSS w/ bootstrap integration
-
-.header {
-    font-size: 150%;
-    word-spacing: 8px;
-    color: white;
-}
-
-body {
-    background-image: url(./background/EpicTMPic.JPG);
-    background-size: 1450px 1000px;
-    background-repeat: no-repeat;
-    
-}
-
-.hoverblue:hover {
-    color: rgb(0, 0, 0) !important;
-}
-
-p {
-    color :rgb(0, 0, 0);
-}
-
-
- 
-.navbarcolor {
-    color:white !important;
-}
-
-#testid {
-color: crimson;
-
-}
-
-#nav1
-{  
-    background-image: url(./background/redsky.JPG);
-    background-repeat: no-repeat;
-    background-size: 1450px 1500px;
-    opacity: 0.93; 
-    filter:(opacity=50);     
-} */
