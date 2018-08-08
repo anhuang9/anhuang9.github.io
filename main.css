@@ -150,23 +150,23 @@ img:last-of-type {
 
 
 #slide1:before {
-  background-image: url("./background/lionshead.JPG");
+  background-image: url("./background/prilast.JPG");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide2 {
-  background-image: url("./background/mountain2.JPG");
-  z-index:2;
+  background-image: url("./background/iconic.JPG");
+  z-index:3;
 }
 
 #slide3:before {
-  background-image: url("./background/sunset.JPG");
+  background-image: url("./background/motor3.JPG");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide4 {
   background-image: url("./background/mountain3.JPG");
-  z-index:2;
+  z-index:3;
 }
 
 #slide5:before {
@@ -176,20 +176,21 @@ img:last-of-type {
 
 #slide6 {
   background-image: url("./background/redsky.JPG");
+  z-index:3;
 }
 
 #nav1
 {  
     background-image: url(./background/EpicTMPic.JPG);
     background-repeat: no-repeat;
-    background-size: 1450px 3000px;
+    background-size: 1450px 2900px;
     /* background-size: auto; */
     opacity: 0.99; 
     filter:(opacity=5);     
 }
 
 .navbarcolor {
-    color:rgb(0, 0, 0) !important;
+    color:rgba(0, 0, 0, 0.699) !important;
 }
 
 .hoverblue:hover {
