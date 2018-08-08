@@ -138,15 +138,7 @@ img:last-of-type {
     text-align: right;
  }
 
- #slide4 h1 {
-  transform: translateZ(.18px) scale(.75);
-  transform-origin: 50% 100%;
-}
 
-#slide6 h1 {
-  transform: translateZ(.25px) scale(.75);
-  transform-origin: 50% 100%;
-}
 
 
 #slide1:before {
@@ -185,7 +177,7 @@ img:last-of-type {
     background-repeat: no-repeat;
     background-size: 1450px 2900px;
     /* background-size: auto; */
-    opacity: 0.99; 
+    opacity: 1; 
     filter:(opacity=5);     
 }
 
