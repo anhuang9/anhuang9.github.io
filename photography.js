@@ -15,10 +15,10 @@ const Slider = {
     setInterval(this.slide.bind(this), 3000);
   },
   slide() {
-    if (this.isMaxLeft()) {
-      this.direction = 'right';
-    } else if (this.isMaxRight()) {
+    if (this.isMaxRight()) {
       this.direction = 'left';
+    } else if (this.isMaxLeft()) {
+      this.direction = 'right';
     }
 
     this.moveSlider();

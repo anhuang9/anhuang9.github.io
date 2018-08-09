@@ -128,7 +128,7 @@ div.container a
     --slide-reset-delay: 0.5s;
     --slide-reset-time: 0.5s;
     --slider-offset: 0%;
-    --slider-time: 1.2s;
+    --slider-time: 2.5s;
   }
   
   html,
@@ -235,7 +235,7 @@ div.container a
     }
     to {
       transform: translateX(-50px);
-      transform: translateX(-5vw);
+      transform: translateX(-17vw);
     }
   }
   
@@ -244,7 +244,7 @@ div.container a
       transform: translateX(0);
     }
     to {
-      transform: translateX(-3vw);
+      transform: translateX(-10vw);
     }
   }
   
@@ -253,7 +253,7 @@ div.container a
       transform: translateX(0);
     }
     to {
-      transform: translateX(1vw);
+      transform: translateX(-2vw);
     }
   }
   
@@ -262,7 +262,7 @@ div.container a
       transform: translateX(0);
     }
     to {
-      transform: translateX(3vw);
+      transform: translateX(5vw);
     }
   }
   
@@ -271,7 +271,7 @@ div.container a
       transform: translateX(0);
     }
     to {
-      transform: translateX(-1vw);
+      transform: translateX(12vw);
     }
   }
   
