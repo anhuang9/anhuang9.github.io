@@ -191,7 +191,7 @@ div.container a
     clip-path: inset(calc(var(--rate) * 4) 0 0 0);
   }
   
-  // Animation
+  /* // Animation */
   .slider__item--animating .slider__image:nth-child(1) {
     animation-name: animation-1, animation-1;
   }
@@ -212,13 +212,13 @@ div.container a
     animation-name: animation-5, animation-5;
   }
   
-  // Keyframes
+  /* // Keyframes */
   @keyframes animation-1 {
     from {
       transform: translateX(0);
     }
     to {
-      // transform: translateX(-50px);
+      transform: translateX(-50px);
       transform: translateX(-5vw);
     }
   }
