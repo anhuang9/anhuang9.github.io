@@ -7,6 +7,26 @@ html {
     overflow: hidden;
   }
 
+body { 
+    margin:0;
+    padding:0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: Nunito;
+}
+
+
+.header {
+    text-align: center;
+    font-size: 175%;
+    color: #fff;
+    text-shadow: 0 2px 2px #000;
+}
+
+
 #nav1
 {  
     background-image: url(./background/EpicTMPic.JPG);

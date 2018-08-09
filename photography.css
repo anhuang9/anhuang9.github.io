@@ -1,11 +1,30 @@
-/* Navbar hover color */
-
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
 html {
-    height: 100%;
-    overflow: hidden;
-  }
+  height: 100%;
+  overflow: hidden;
+}
+
+body { 
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Nunito;
+}
+
+
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+/* NAV SHIT */
 
 #nav1
 {  
@@ -98,9 +117,6 @@ div.container a
 
 
 
-
-
-
 /* NEW STUFF */
 
 
@@ -109,10 +125,10 @@ div.container a
     --function: ease-in-out;
     --slide-distortion-delay: 0s;
     --slide-distortion-time: 0.5s;
-    --slide-reset-delay: 0.4s;
+    --slide-reset-delay: 0.5s;
     --slide-reset-time: 0.5s;
     --slider-offset: 0%;
-    --slider-time: 1s;
+    --slider-time: 1.2s;
   }
   
   html,
