@@ -176,8 +176,9 @@ div.container a
     padding-left: 10%;
     padding-right: 10%;
     /* background-color: rgb(131, 92, 92); */
-    background-image: url("./background/EpicTMPic.JPG");
-    background-size: auto 800px;
+    /* background-image: url("./background/EpicTMPic.JPG");
+    background-size: auto 800px; */
+    background: linear-gradient(#9198e5,#e66465);
   
     height: auto; 
     width: auto; 
@@ -295,7 +296,7 @@ div.container a
 div.mainbody {
   /* background-image: url("./background/EpicTMPic.JPG");
   background-size: fill; */
-  background-color: black;
+  background: linear-gradient(#e66465, #9198e5);
   color: white;
 }
 
