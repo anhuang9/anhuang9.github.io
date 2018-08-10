@@ -172,8 +172,16 @@ div.container a
   
   
   .slider__image {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(131, 92, 92);
+  
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 550px;
     transform: translateX(0);
     animation-delay: var(--slide-distortion-delay), var(--slide-reset-delay);
     animation-duration: var(--slide-distortion-time), var(--slide-reset-time);
