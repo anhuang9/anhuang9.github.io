@@ -115,3 +115,12 @@ div.container a
     cursor: pointer; 
     text-align: right !important;
 }
+
+div.mainbody {
+    /* background-image: url("./background/EpicTMPic.JPG");
+    background-size: fill; */
+    background: linear-gradient(#64e6e4,#ee8282,#f3e745);
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
