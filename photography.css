@@ -280,7 +280,7 @@ div.container a
       transform: translateX(0);
     }
     to {
-      transform: translateX(12vw);
+      transform: translateX(8vw);
     }
   }
   
