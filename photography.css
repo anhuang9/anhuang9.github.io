@@ -170,13 +170,14 @@ div.container a
     height: auto;
   }
   
-  
   .slider__image {
     /* width: 100%;
     height: auto; */
     padding-left: 10%;
     padding-right: 10%;
-    background-color: rgb(131, 92, 92);
+    /* background-color: rgb(131, 92, 92); */
+    background-image: url("./background/EpicTMPic.JPG");
+    background-size: auto 800px;
   
     height: auto; 
     width: auto; 
@@ -288,3 +289,12 @@ div.container a
       transform: translateX(-100%);
     }
   }
+
+/* MAIN BACKGROUND STUFF */
+
+div.mainbody {
+  /* background-image: url("./background/EpicTMPic.JPG");
+  background-size: fill; */
+  background-color: black;
+  color: white;
+}
