@@ -17,13 +17,13 @@ body {
 }
 
 h1 {
-   font-size: 5vw;
+   font-size: 4.5vw;
    color: rgb(255, 255, 255);
 
 }
 
 h2 {
-  font-size: 5vw;
+  font-size: 4.5vw;
   color: rgb(255, 255, 255);
 }
 
@@ -174,8 +174,7 @@ img:last-of-type {
 {  
     background-image: url(./background/EpicTMPic.JPG);
     background-repeat: no-repeat;
-    background-size: 1450px 2900px;
-    /* background-size: auto; */
+    background-size: fill;
     opacity: 1; 
     filter:(opacity=5); 
 }
