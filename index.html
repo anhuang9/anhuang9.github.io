@@ -7,67 +7,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
     <!--above meta data controls viewers ability to render the website -->
 
-  <title>
-      AnHu | SF | LA
-  </title>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
       <link rel="icon" type="image/png" href="./favicomatic/favicon.ico" />
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link href="main.css" type="text/css" rel="stylesheet"/>
 
+      <title>
+        AnHu | SF | LA
+    </title>
+
 </head>
+
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light sticky-top transparent" id="nav1" style="background-color: #58deff;">
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+<nav class="navbar navbar-expand-md navbar-light sticky-top transparent" id="nav1" style="background-color: #58deff;">
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar_colap">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="header">
+    <div class= "header">
         <a href="index.html" class="headercolor hoverheader">AnHu</a> 
         <span style='color:rgb(255, 0, 0)'> | </span> 
         SF 
         <span style='color:rgb(255, 9, 9)'> | </span>
         LA  
-    </div>
+      </div>
 
-    <div class="collapse navbar-collapse borderYtoX container" id="navbar">
+    <div class="collapse navbar-collapse borderYtoX container" id="navbar_colap">
+
+      <!-- issue lies in borderYtoX and container Css... look into later-->
+      <!-- <div class="collapse navbar-collapse borderYtoX container navbarcoll"> -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item ">
-          <a href="blog.html" class="nav-link hoverblue navbarcolor">Blog</a>
+          <a class="nav-link hoverblue navbarcolor" href="blog.html" >Blog</a>
         </li>
-        <span style='font-size: 152% ; color:rgb(255, 0, 0)'> | </span> 
+        <!-- <span style='font-size: 152% ; color:rgb(255, 0, 0)'> | </span>  -->
         <li class="nav-item">
-            <a href="photography.html" class="nav-link hoverblue navbarcolor">Photography</a>
+            <a class="nav-link hoverblue navbarcolor" href="photography.html" >Photography</a>
         </li>
-        <span style='font-size: 152% ; color:rgb(255, 0, 0)'> | </span> 
+        <!-- <span style='font-size: 152% ; color:rgb(255, 0, 0)'> | </span>  -->
         <li class="nav-item">
-            <a href="https://www.youtube.com/channel/UCvBzNsBfazMyz0c-kIwW1Sg/featured" target="_blank" class="nav-link hoverblue navbarcolor">Youtube</a>
+          <a class="nav-link hoverblue navbarcolor" href="https://www.youtube.com/channel/UCvBzNsBfazMyz0c-kIwW1Sg/featured" target="_blank" >Youtube</a>
         </li>
-        <span style='font-size: 152% ; color:rgb(255, 0, 0)'> | </span> 
+        <!-- <span style='font-size: 152% ; color:rgb(255, 0, 0)'> | </span>  -->
         <li class="nav-item">
-            <a href="projects.html" class="nav-link hoverblue navbarcolor">Projects</a>
+            <a class="nav-link hoverblue navbarcolor" href="projects.html" >Projects</a>
         </li>
-        <span style='font-size: 152% ; color:rgb(255, 0, 0)'> | </span> 
+        <!-- <span style='font-size: 152% ; color:rgb(255, 0, 0)'> | </span>  -->
         <li class="nav-item">
-            <a href="resume.pdf" class="nav-link hoverblue navbarcolor">Resume/CV</a>
+            <a class="nav-link hoverblue navbarcolor" href="resume.pdf" >Resume/CV</a>
         </li>
-        <span style='font-size: 152% ; color:rgb(255, 0, 0)'> | </span> 
+        <!-- <span style='font-size: 152% ; color:rgb(255, 0, 0)'> | </span>  -->
         <li class="nav-item">
-            <a href="" class="nav-link hoverblue navbarcolor">Contact</a>
+            <a class="nav-link hoverblue navbarcolor" href="" >Contact</a>
         </li>
       </ul> 
     </div>
   </nav>
 
-<div id="title" class="slide header">
+  <div id="title" class="slide header">
     <h1> 你好 </h1>
-    <h2> Hello </h2>
-    <h3> こんにちは </h3>
-    <h4> Hallå </h4>
-    <h4> Χαίρετε </h4>
-    <h4> Здравствуйте </h4>
+    <h1> Hello </h1>
+    <h1> こんにちは </h1>
+    <h2> Hallå </h2>
+    <h2> Χαίρετε </h2>
+    <h2> Здравствуйте </h2>
   </div>
   
   <div id="slide1" class="slide">
@@ -75,9 +84,9 @@
       <h1>About Me</h1>
       <p>
         <span style='color:rgb(0, 140, 255)'>Name</span>: Andy Huang <br/>
-        <span style='color:rgb(255, 57, 57)'>Age</span>: 19 <br/>
-        <span style='color:rgb(132, 236, 34)'>School</span>: UCLA <br/>
-        <span style='color:rgb(225, 106, 255)'>Major</span>: Computer Science/Philosophy <br/> <br/>
+        <span style='color:rgb(0, 140, 255)'>Age</span>: 19 <br/>
+        <span style='color:rgb(0, 140, 255)'>School</span>: UCLA <br/>
+        <span style='color:rgb(0, 140, 255)'>Major</span>: Computer Science <br/> <br/>
         One of my hobbies that I’m really passionate about is <strong><em>content creation</em></strong>: coding, photography, videos, blogs — you name it! <br/><br/> Since you’re here, I hope you’ll explore a bit more of what I have to offer on my website — I hope I don’t disappoint. Cheers! 
       </p>
     </div>
@@ -100,7 +109,7 @@
   <div id="slide3" class="slide">
     <div class="title">
       <h1>Photography</h1>
-      <p> I just recently got into photography, but I love taking pictures and capturing moments! Here's a showcase of my best work, ranging from powerful landscape to professional headshots. <br/> <br/> 
+      <p> Every photo on this website are all self-taken (or self-coordinated)! Explore more in the photography section to see more! <br/> <br/> 
         <span style='color:rgb(0, 140, 255)'>Camera</span>: Canon EOS T6 Rebel - DSLR </p>
     </div>
   </div>
@@ -124,14 +133,10 @@
   <div id="slide6" class="slide">
       <div class="title">
       <h1>Resume/CV</h1>
-      <p> I'd like to get a job so I guess this is necessary. </p>
+      <p> I'd like to get a job so I guess this is necessary </p>
       </div>
   </div>
 
 </body>
 
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
-    </html> -->
+</html>
