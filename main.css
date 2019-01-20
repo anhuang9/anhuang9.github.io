@@ -238,21 +238,19 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 }
 
 
-
-
-div.container
+div.contain
 {
     margin: auto; 
-    text-align: right ;
-    height: min-content;
-    width: min-content;
+    text-align: left ;
+    /* height: min-content;
+    width: min-content; */
 }
 
-div.container li a
+div.contain li a
 {
     margin: auto;
     position: relative;
     z-index: 0;
     cursor: pointer; 
-    text-align: right;
+    text-align: left;
 }
