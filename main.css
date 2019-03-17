@@ -214,7 +214,7 @@ div.borderYtoX a:before, div.borderYtoX a:after
     width: 0px;
     content: '';
     background: rgb(255, 0, 0);
-    transition: all 0.33s;
+    transition: all 0.33s; 
 }
 
 div.borderYtoX a:before
