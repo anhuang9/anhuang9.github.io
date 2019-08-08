@@ -73,7 +73,7 @@ div.borderYtoX a:before, div.borderYtoX a:after
     /* background: #04d8d8; */
     background: rgb(255, 0, 0);
     /* background: rgba(0, 217, 255, 0.945); */
-    transition: all 0.25s;
+    transition: all 0.33s;
 }
 
 div.borderYtoX a:before
@@ -101,6 +101,17 @@ div.container
     margin-right: -22px !important;
 	/* padding: 10em 3em; */
 	text-align: right !important;
+}
+
+
+/* This part fixes red box enlargement issue  */
+div.contain li a
+{
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    cursor: pointer; 
+    text-align: left;
 }
 
 div.container a
