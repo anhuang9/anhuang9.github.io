@@ -45,8 +45,7 @@ body {
 }
 
 .hoverblue:hover {
-    /* color: #d80404 !important; */
-    color: rgb(255, 0, 0) !important;
+    color: #58deff !important;
 }
 
 .hoverheader{
