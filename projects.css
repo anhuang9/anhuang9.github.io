@@ -27,24 +27,25 @@ body {
 }
 
 
-#nav1
-{  
-    background-image: url(./background/EpicTMPic.JPG);
-    background-repeat: no-repeat;
-    background-size: 1450px 2900px;
-    /* background-size: auto; */
-    opacity: 1; 
-    filter:(opacity=5); 
+.navbar {
+    background: rgba(15, 15, 15, 0.35) !important;
+    backdrop-filter: blur(24px) saturate(200%);
+    -webkit-backdrop-filter: blur(24px) saturate(200%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.navbar.nav-scrolled {
+    background: rgba(10, 10, 10, 0.6) !important;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
 }
 
 .navbarcolor {
-    color:rgb(29, 32, 32) !important;
-    /* font-size: 19px; */
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .hoverblue:hover {
-    /* color: #d80404 !important; */
-    color: rgb(255, 0, 0) !important;
+    color: #58deff !important;
 }
 
 .hoverheader{

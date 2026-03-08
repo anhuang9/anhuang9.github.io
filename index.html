@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--above meta data controls viewers ability to render the website -->
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -24,7 +24,7 @@
 
 <body>
 
-<nav class="navbar navbar-expand-md navbar-light sticky-top transparent" id="nav1" style="background-color: #58deff;">
+<nav class="navbar navbar-expand-md navbar-dark sticky-top transparent" id="nav1">
 
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar_colap">
       <span class="navbar-toggler-icon"></span>
@@ -83,10 +83,10 @@
     <div class="title">
       <h1>About Me</h1>
       <p>
-        <span style='color:rgb(0, 140, 255)'>Name</span>: Andy Huang <br/>
-        <span style='color:rgb(0, 140, 255)'>Age</span>: 19 <br/>
-        <span style='color:rgb(0, 140, 255)'>School</span>: UCLA <br/>
-        <span style='color:rgb(0, 140, 255)'>Major</span>: Computer Science <br/> <br/>
+        <span style='color:#58deff'>Name</span>: Andy Huang <br/>
+        <span style='color:#58deff'>Age</span>: 19 <br/>
+        <span style='color:#58deff'>School</span>: UCLA <br/>
+        <span style='color:#58deff'>Major</span>: Computer Science <br/> <br/>
         One of my hobbies that I’m really passionate about is <strong><em>content creation</em></strong>: coding, photography, videos, blogs — you name it! <br/><br/> Since you’re here, I hope you’ll explore a bit more of what I have to offer on my website — I hope I don’t disappoint. Cheers! 
       </p>
     </div>
@@ -110,7 +110,7 @@
     <div class="title">
       <h1>Photography</h1>
       <p> Every photo on this website are all self-taken (or self-coordinated)! Explore more in the photography section to see more! <br/> <br/> 
-        <span style='color:rgb(0, 140, 255)'>Camera</span>: Canon EOS T6 Rebel - DSLR </p>
+        <span style='color:#58deff'>Camera</span>: Canon EOS T6 Rebel - DSLR </p>
     </div>
   </div>
   
@@ -137,6 +137,21 @@
       </div>
   </div>
 
+
+<script>
+(function() {
+  var nav = document.getElementById('nav1');
+  function updateNav() {
+    if (window.scrollY > 40) {
+      nav.classList.add('nav-scrolled');
+    } else {
+      nav.classList.remove('nav-scrolled');
+    }
+  }
+  window.addEventListener('scroll', updateNav, { passive: true });
+  updateNav();
+})();
+</script>
 </body>
 
 </html>
